@@ -3,7 +3,7 @@
 Hey there! This is a simple, easy-to-run Full Stack Web Application that authenticates users with JWT (JSON Web Tokens) and restricts their view based on whether they are a normal **USER** or a privileged **ADMIN**. It has securely protected routes on the frontend, and securely protected endpoints via Spring Security on the backend.
 
 ## The Tech Stack
-- **Backend**: Built completely with Java 17, Spring Boot, Spring Security, JWT, JPA, and an in-memory H2 database (so nothing complex to install!) 
+- **Backend**: Built completely with Java 17, Spring Boot, Spring Security, JWT, JPA, and an in-memory H2 database
 - **Frontend**: Crafted using React 18, TypeScript, Vite, TailwindCSS for styling, and React Hook Form + React Query for interacting with data easily.
 
 ---
@@ -33,14 +33,9 @@ The React App is now running at `http://localhost:5173`. Click that link and it 
 ---
 
 ## Testing :
-You can actually click "Register" on the frontend to create your own users dynamically and assign their roles. Be careful to include a strong password, as our validator expects: minimum 8 characters, an uppercase letter, a number, and a special character!
+You can click on "Register" on the frontend to create your own users dynamically and assign their roles. Be careful to include a strong password, as validator expects: minimum 8 characters, an uppercase letter, a number, and a special character!
 
 
-
-To use it:
-```powershell
-powershell -ExecutionPolicy Bypass -File test-api.ps1
-```
 
 ---
 
