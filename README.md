@@ -41,9 +41,8 @@ You can click on "Register" on the frontend to create your own users dynamically
 
 ## 📸 Screenshots
 ***You can check all screenshots in screenhot folder***
-![alt text](screenshots/admin_dashboard.png)
-![alt text](screenshots/admin_dashboard.png)
-![alt text](screenshots/login.png)
 ![alt text](screenshots/register.png)
+![alt text](screenshots/login.png)
+![alt text](screenshots/admin_dashboard.png)
 ![alt text](screenshots/user_dashboard.png)
 
